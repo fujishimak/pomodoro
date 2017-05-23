@@ -1,0 +1,36 @@
+#wrapper{
+	margin: auto;
+	/*position: relative;*/
+	width: 300px;
+	text-align: center;
+}
+
+.option{
+	width: 10px;
+}
+
+.container-fluid{
+	margin: auto;
+	width: 150px;
+	/*background-color: black;*/
+
+}
+
+.row{
+	/*background-color: white;*/
+	margin:auto;
+	width: 100px;
+}
+
+button{
+	width: 25px;
+}
+
+#clock{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	border: 5px solid red;
+	height: 300px; 
+}
