@@ -16,13 +16,15 @@
 
 }
 
+
+
 .row{
 	/*background-color: white;*/
 	margin:auto;
 	width: 100px;
 }
 
-button{
+.chbreak, .chgtotal, .chgcycle{
 	width: 25px;
 }
 

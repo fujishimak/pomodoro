@@ -17,12 +17,17 @@
 	<div id="header"><h3>Free Code Camp</h3></div>
 	<div id="clock">
 		<div>
-		<div id="timer"><h1>24:59</h1></div>
+			<div>
+				<div id="timer"><h1>25:00</h1></div>
+				<div >
+					<button id="action" class="btn btn-default">Start</button>
+				</div>
+			</div>
 		<div class="container-fluid">
 		<div id="row" id="timings">
-			<div id="break" class="col-md-4 option"><button>+</button>5<button>-</button></div>
-			<div id="total" class="col-md-4 option"><button>+</button>25<button>-</button></div>
-			<div id="number" class="col-md-4 option"><button>+</button>1<button>-</button></div>
+			<div id="break" class="col-md-4 option"><button class="chgbreak">+</button>5<button class="chgbreak">-</button></div>
+			<div id="total" class="col-md-4 option"><button class="chgtotal">+</button>25<button  class="chgtotal">-</button></div>
+			<div id="number" class="col-md-4 option"><button class="chgcycle">+</button>1<button class="chgcycle">-</button></div>
 		</div>
 		</div>		
 	</div>
@@ -30,12 +35,10 @@
 	
 </div>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<!-- Latest compiled and minified JavaScript -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="js/pomodoro.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/pomodoro.js"></script>
 
 </body>
 </html>
